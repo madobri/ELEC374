@@ -35,7 +35,7 @@ module boothAlgorithm(
 			endcase 
 			
 			mult = $signed(mult)>>>2;
-			$display("Iteration %d: mult=%b, A=%b, mult[2:0]=%b", i, mult, A, mult[2:0]);
+	
 				
 		end 
 	end

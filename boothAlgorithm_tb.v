@@ -6,7 +6,7 @@ module boothAlgorithm_tb;
     reg signed[31:0] M, Q;
 	
     
-    wire [62:0] Result;
+    wire [63:0] Result;
 
     boothAlgorithm uut (
         .M(M),

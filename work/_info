@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/ELEC374/ELEC374
+vboothAlgorithm1b
+Z1 !s110 1738442724
+!i10b 1
+!s100 S<bb3NbE`Qb>;4<i2hkWD3
+IPNLYOn9LST`R<j514JJ;>3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1738442709
+8boothAlgorithm1b.v
+FboothAlgorithm1b.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1738442724.000000
+Z5 !s107 boothAlgorithm1b_tb.v|boothAlgorithm1b.v|
+Z6 !s90 boothAlgorithm1b.v|boothAlgorithm1b_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+nbooth@algorithm1b
+vboothAlgorithm1b_tb
+R1
+!i10b 1
+!s100 [0z^J1W0UdX>ze6CBIhC83
+IhXiBmZfdUEY@Z=0f[6`8N2
+R2
+R0
+w1738442311
+8boothAlgorithm1b_tb.v
+FboothAlgorithm1b_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+nbooth@algorithm1b_tb
