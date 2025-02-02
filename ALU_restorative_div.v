@@ -25,7 +25,8 @@ module ALU_restorative_div (M, Q, quotient, remainder);
 			begin
 			
 				Q[0] = 1; 
-				
+
+			end
 			else if (A[32] == 1)
 			begin 
 			
