@@ -2,66 +2,35 @@
 module ALU_restorative_div_tb(); 
 
 	//Inputs
-	reg [31:0] Q; 
-	reg [31:0] M; 
-	
-	reg clk; 
-	reg rst; 
-	reg start; 
+	reg [32:0] Q; 
+	reg [32:0] M;  
 	
 	//Outputs
 	wire [31:0] quotient; 
-	wire [31:0] remainder; 
-	wire done; 
-	
+	wire [32:0] remainder; 
+
 	//Instantiate the division module 
 	ALU_restorative_div uut(
-		.clk(clk); 
-		.rst(rst); 
-		.start(start); 
-		.Q(Q); 
-		.(M); 
-		.quotient(quotient); 
-		.remainder(remainder); 
-		.done(done); 
+		.M(M), 
+		.Q(Q), 
+		.quotient(quotient),
+		.remainder(remainder)
 	); 
-	
-	//Generate Clock Signal 
-	always #10 clk ~ clk; 
 	
 	//Test sequence
 	initial begin 
-		clk = 0; 
-		rst = 1; 
-		start = 0; 
-		Q = 32'h00000000; 
-		M = 32'h00000000; 
+		// Initializing variables
+		Q = 33'h000000000; 
+		M = 33'h000000000; 
 		
-	//Monitor values 
-	$monitor("Time=%0t | Q=%h | M=%h | Quotient=%h | Remainder=%h | Done=%b", $time, Q, M, quotient, remainder, done); 
+		#10 Q = 33'h000000020; M = 33'h000000004; // 32/4
+		#10 Q = 33'h0000000FF; M = 33'h00000000F; // 255/15
+		#10 Q = 33'h000007FFF; M = 33'h000000002; // 32767/2
+		#10 Q = 33'h100000000; M = 33'h000000010; // -2147483648/16 (Two's complement)
+		#10 Q = 33'hFFFFFFFFF; M = 33'h000000003; // -1/3 (signed case)
+
+		#10 $stop; 
 	
-	#15 rst = 0; 
-	
-	//test cases
-	#10 Q = 32'h0000020; M = 32'h00000004; start = 1; // 32/4
-	#10 start = 0; 
-	
-	#50 Q = 32'h00000FF; M = 32'h0000000F; start = 1; // 255/15
-	#10 start = 0; 
-	
-	#50 Q = 32'h00007FFF; M = 32'h00000002; start = 1; // 32767/2
-	#10 start = 0; 
-	
-	#50 Q = 32'h80000000; M = 32'h00000010; start = 1; // -2147483648 /16 (two's compliment case)
-	#10 start = 0; 
-	
-	#50 Q = 32'hFFFFFFFF; M = 32'h00000003; start = 1; // -1/3 (signed test case)
-	#10 start = 0; 
-	
-	#50 %stop; 
-	
-end
+	end
 
 endmodule
-	
-	
