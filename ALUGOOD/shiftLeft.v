@@ -3,6 +3,6 @@ module shiftLeft (
     input [4:0] shifts,
     output [31:0] Result
 );
-    assign Result = B << shifts;
+    assign Result = B << shifts; 
 	 
 endmodule
