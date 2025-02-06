@@ -1,4 +1,4 @@
-module shiftRight (
+module shiftRight ( 
     input [31:0] B,
     input [4:0] shifts,
     output [31:0] Result
