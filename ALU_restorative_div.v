@@ -29,8 +29,7 @@ module ALU_restorative_div (M, quotient, Q, remainder);
                 Q_reg[0] = 0;  //Append 0 to quotient
                 A = A + M;  //Restore A if it is negative 
             end
-        end
-		  
+        end	  
         quotient = Q_reg; 
         remainder = A;  
     end
