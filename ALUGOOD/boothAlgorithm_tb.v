@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module boothAlgorithm1b_tb;
+module boothAlgorithm_tb;
 
  
     reg signed[31:0] M, Q;
@@ -8,7 +8,7 @@ module boothAlgorithm1b_tb;
     
     wire [63:0] Result;
 
-    boothAlgorithm1b uut (
+    boothAlgorithm uut (
         .M(M),
 		  .Q(Q),
         .Result(Result)
