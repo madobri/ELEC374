@@ -1,4 +1,4 @@
-module boothAlgorithm(
+module booth(
 	input signed [31:0] M,
 	input signed [31:0] Q,
 	
