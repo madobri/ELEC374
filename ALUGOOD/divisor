@@ -1,4 +1,4 @@
-module ALU_restorative_div (M, quotient, Q, remainder);
+module divisor (M, quotient, Q, remainder);
 
     input [32:0] M;
     input [31:0] Q; 
