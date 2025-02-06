@@ -1,5 +1,5 @@
 module rotateLeft(
-
+ 
 input [31:0] B,
 input [4:0] rotate,
 output [31:0] Result
