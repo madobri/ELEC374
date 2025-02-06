@@ -2,7 +2,6 @@
 
 module rotateRight_tb;
 
-    
     reg [31:0] B;
     reg [4:0] rotate;
 
