@@ -8,7 +8,7 @@ module booth_tb;
     
     wire [63:0] Result;
 
-    boothAlgorithm uut (
+    booth uut (
         .M(M),
 		  .Q(Q),
         .Result(Result)
