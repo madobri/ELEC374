@@ -1,5 +1,5 @@
 `timescale 1ns/10ps
-module ALU_restorative_div_tb(); 
+module divisor_tb(); 
 
 	//Inputs
 	reg [32:0] Q; 
