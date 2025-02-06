@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module boothAlgorithm_tb;
+module booth_tb;
 
  
     reg signed[31:0] M, Q;
