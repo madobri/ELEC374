@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module shiftRightLogical_tb;
+module srl_tb;
 
     // Inputs
     reg [31:0] B;
