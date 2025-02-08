@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module srl_tb;
+module sra_tb;
 
     // Inputs
     reg [31:0] B;
@@ -10,7 +10,7 @@ module srl_tb;
     wire [31:0] Result;
 
     // Instantiate the shiftRight module
-    shiftRightLogical uut (
+    sra uut (
         .B(B),
         .shifts(shifts),
         .Result(Result)
