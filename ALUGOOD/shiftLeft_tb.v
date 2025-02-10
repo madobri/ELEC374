@@ -22,11 +22,7 @@ module shiftLeft_tb;
 		B = 32'h00000000; 
 		  //set shift to zero
 		shifts = 0;
-        
-        //displays the time, B original value, # of bits to shift, the result of the shift
-		$monitor("Time=%0t | B=%h | shifts=%d | Result=%h", $time, B, shifts, Result);
-
-		  
+        	  
 		//#10 waits 10 time units
 		#10 B = 32'hFFFFFFFF; shifts = 0;  
 		#10 B = 32'hA5A5A5A5; shifts = 1; 
