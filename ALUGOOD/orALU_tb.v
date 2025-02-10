@@ -21,9 +21,6 @@ module orALU_tb;
         A = 32'h00000000;
         B = 32'h00000000;
         
-        
-        $monitor("Time=%0t | A=%h | B=%h | AND=%h", $time, A, B, Result);
-
        
         #10 A = 32'hFFFFFFFF; B = 32'h0000FFFF;
         #10 A = 32'hA5A5A5A5; B = 32'h5A5A5A5A;  
