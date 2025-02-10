@@ -2,19 +2,19 @@
 module divisor_tb(); 
 
 	//Inputs
-	reg signed [31:0] Q; 
-	reg signed [32:0] M;  
+	reg [32:0] Q; 
+	reg [32:0] M;  
 	
 	//Outputs
-	wire signed [63:0] Result; 
+	wire [31:0] quotient; 
+	wire [32:0] remainder; 
 
 	//Instantiate the division module 
-	divisor uut(
+	ALU_restorative_div uut(
 		.M(M), 
 		.Q(Q), 
-		.Result(Result),
-		.clk(clk),
-		.reset(reset)
+		.quotient(quotient),
+		.remainder(remainder)
 	); 
 	
 	//Test sequence
