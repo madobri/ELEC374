@@ -22,9 +22,6 @@ module sra_tb;
         B = 32'h00000000;
         shifts = 0;
         
-        // Monitor values
-        $monitor("Time=%0t | B=%h | shifts=%d | Result=%h", $time, B, shifts, Result);
-
         // Apply test cases
         #10 B = 32'hFFFFFFFF; shifts = 0;  // No shift
         #10 B = 32'hA5A5A5A5; shifts = 1;  // Shift by 1
