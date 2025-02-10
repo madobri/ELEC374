@@ -21,11 +21,7 @@ module rotateRight_tb;
 		B = 32'h00000000; 
 		  //set rotate to zero
 		rotate = 1;	
-        
-        //displays the time, B original value, # of bits to rotate, the result of the rotate
-		$monitor("Time=%0t | B=%h | rotate=%d | Result=%h", $time, B, rotate, Result);
-
-		  
+        	  
 		//#10 waits 10 time units
  
 		#10 B = 32'hA5A5A5A5; rotate = 1; 
