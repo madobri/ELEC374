@@ -18,9 +18,6 @@ module not_tb;
         // Initialize signals
         A = 32'h00000000;
 
-        // Monitor values
-        $monitor("Time=%0t | A=%h | Result=%h", $time, A, Result);
-
         // Apply test cases
         #10 A = 32'hFFFFFFFF; 
         #10 A = 32'hA5A5A5A5; 
