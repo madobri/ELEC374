@@ -2,7 +2,7 @@ module divisor (
     input clk, reset,                 	// Clock and reset input
     input signed [31:0] M,       // 32 bit Divisor (will be extended to 33-bit)
     input signed [31:0] Q,       // 32 bit Dividend
-    output signed [63:0] Result // Quotient + Remainder output
+    output signed [63:0] Result // Quotient and Remainder output
 );
 
     reg [31:0] Q_reg;         // Register to hold the quotient
@@ -39,7 +39,7 @@ module divisor (
                 M_Pos = M_extended;
             end
         end 
-        else if (count > 0 && count < 33) begin  // Increased to 33 cycles
+        else if (count > 0 && count < 33) begin  //33 cycles
             // Shift Left
             {A, Q_reg} = {A, Q_reg} << 1;
 	
