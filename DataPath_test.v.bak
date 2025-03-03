@@ -1,0 +1,65 @@
+`timescale 1ns / 1ps
+
+module DataPath_tb;
+    wire clear, clock, read;
+    wire R0out, R1out, R2out, R3out, R4out, R5out, R6out, R7out;
+    wire R8out, R9out, R10out, R11out, R12out, R13out, R14out, R15out;
+    wire HIout, LOout, MARout, MDRout;
+    wire [31:0] Mdatain;
+    wire [31:0] BusMuxOut;
+
+    DataPath uut (
+        .clear(clear), .clock(clock), .read(read),
+        .R0out(R0out), .R1out(R1out), .R2out(R2out), .R3out(R3out),
+        .R4out(R4out), .R5out(R5out), .R6out(R6out), .R7out(R7out),
+        .R8out(R8out), .R9out(R9out), .R10out(R10out), .R11out(R11out),
+        .R12out(R12out), .R13out(R13out), .R14out(R14out), .R15out(R15out),
+        .HIout(HIout), .LOout(LOout), .MARout(MARout), .MDRout(MDRout),
+        .BusMuxOut(BusMuxOut)
+    );
+    
+    always #5 clock = ~clock;
+    
+    initial begin
+        clear = 1; clock = 0; read = 0;
+        R0out = 0; R1out = 0; R2out = 0; R3out = 0;
+        R4out = 0; R5out = 0; R6out = 0; R7out = 0;
+        R8out = 0; R9out = 0; R10out = 0; R11out = 0;
+        R12out = 0; R13out = 0; R14out = 0; R15out = 0;
+        HIout = 0; LOout = 0; MARout = 0; MDRout = 0;
+        Mdatain = 32'hFFFFFFFF;
+        #10 clear = 0;
+        
+        #10 read = 1; 
+		  MDRout = 1; 
+        #10 read = 0;
+		  MDRout = 0;
+        
+        #10 R1out = 1;
+        #10 R1out = 0;
+        
+        #10 R2out = 1;
+        #10 R2out = 0;
+        
+        #10 Mdatain = 32'h88888888;
+        #10 read = 1;
+		  MDRout = 1;
+        #10 read = 0;
+		  MDRout = 0;
+        
+        #10 R1out = 1;
+        #10 R3out = 1;
+        #10 R1out = 0; 
+		  R3out = 0;
+        
+
+        #10 R4out = 1;
+        #10 R4out = 0;
+        
+
+        #10 R5out = 1;
+        #10 R5out = 0;
+        
+        #50 $finish;
+    end
+endmodule
