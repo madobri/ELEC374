@@ -6,4 +6,3 @@ module shiftRight (
     assign Result = {32'b0, (B >> shifts)};
 	 
 endmodule
-

@@ -8,7 +8,7 @@ module not_tb;
     // Output
     wire [31:0] Result;
 
-    notALU uut (
+    not uut (
         .A(A),
         .Result(Result)
     );

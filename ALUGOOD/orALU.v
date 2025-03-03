@@ -8,3 +8,5 @@ module orALU(
 	assign Result = A|B;
 	
 endmodule
+
+

@@ -4,7 +4,7 @@ module subtractor_tb;
 
     reg [31:0] A, B;
     
-    wire [31:0] Result;
+    wire [63:0] Result;
     
     subtractor uut (
         .A(A), 
@@ -29,3 +29,5 @@ module subtractor_tb;
     end
     
 endmodule
+
+

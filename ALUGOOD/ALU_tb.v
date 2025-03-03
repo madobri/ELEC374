@@ -6,7 +6,7 @@ module ALU_tb();
     reg [4:0] signal;   
     reg [31:0] A, B;    
 
-    // Outputs
+    //Outputs
     wire [63:0] Result;  
 
     // Instantiate the ALU module

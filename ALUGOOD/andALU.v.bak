@@ -7,4 +7,3 @@ module andALU(
 	assign Result = A & B;
 
 endmodule
-
