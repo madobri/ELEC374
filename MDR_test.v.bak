@@ -1,0 +1,63 @@
+`timescale 1ns/1ps
+
+module MDR_register_tb;
+  parameter DATA_WIDTH_IN = 32;
+  parameter DATA_WIDTH_OUT = 32;
+  parameter INIT = 32'b0;
+
+  reg clock, clear, enable, read;
+  reg [DATA_WIDTH_IN-1:0] BusMuxOut, Mdatain;
+  wire [DATA_WIDTH_OUT-1:0] BusMuxIn;
+  
+  MDR_register #(DATA_WIDTH_IN, DATA_WIDTH_OUT, INIT) uut (
+    .clear(clear),
+    .clock(clock),
+    .enable(enable),
+    .BusMuxOut(BusMuxOut),
+    .Mdatain(Mdatain),
+    .read(read),
+    .BusMuxIn(BusMuxIn)
+  );
+  
+
+  always #5 clock = ~clock; 
+  
+  initial begin
+    clock = 0;
+    clear = 0;
+    enable = 0;
+    read = 0;
+    BusMuxOut = 32'hA5A5A5A5; // Example value
+    Mdatain = 32'h12345678;   // Example value
+    
+    // Apply reset
+    #10 clear = 1;
+    #10 clear = 0;
+    
+    // Test write from BusMuxOut to BusMuxIn
+    #10 enable = 1; read = 0; // Set to write from BusMuxOut
+    #10 clock = 1; #10 clock = 0; // Simulate clock edge
+    
+    // Disable enable and check if the register holds the value
+    #10 enable = 0;
+    #10 clock = 1; #10 clock = 0;
+    
+    // Test write from Mdatain to BusMuxIn
+    #10 enable = 1; read = 1; // Set to write from Mdatain
+    #10 clock = 1; #10 clock = 0;
+    
+    // Disable enable and check if the register holds the value
+    #10 enable = 0;
+    #10 clock = 1; #10 clock = 0;
+    
+    // Test clearing the register
+    #10 clear = 1;
+    #10 clock = 1; #10 clock = 0;
+    #10 clear = 0;
+    
+    // Finish simulation
+    #10;
+    $stop;
+  end
+
+endmodule
