@@ -1,0 +1,52 @@
+`timescale 1ns/1ps
+
+module register_tb;
+  parameter DATA_WIDTH_IN = 32;
+  parameter DATA_WIDTH_OUT = 32;
+  
+  reg clock, clear, enable;
+  reg [DATA_WIDTH_IN-1:0] BusMuxOut;
+  wire [DATA_WIDTH_OUT-1:0] BusMuxIn;
+  
+  // Instantiate the register module
+  register #(DATA_WIDTH_IN, DATA_WIDTH_OUT) uut (
+    .clear(clear),
+    .clock(clock),
+    .enable(enable),
+    .BusMuxOut(BusMuxOut),
+    .BuxMuxIn(BusMuxIn)
+  );
+  
+  // Clock generation
+  always #5 clock = ~clock; // 10ns period
+  
+  initial begin
+    // Initialize inputs
+    clock = 0;
+    clear = 0;
+    enable = 0;
+    BusMuxOut = 0;
+    
+    // Apply reset
+    #10 clear = 1;
+    #10 clear = 0;
+    
+    // Write data to register
+    #10 enable = 1; BusMuxOut = 32'hA5A5A5A5;
+    #10 clock = 1; #10 clock = 0; // Simulate clock edge
+    
+    // Disable enable and check if register holds value
+    #10 enable = 0;
+    #10 clock = 1; #10 clock = 0;
+    
+    // Clear register
+    #10 clear = 1;
+    #10 clock = 1; #10 clock = 0;
+    #10 clear = 0;
+    
+    // Finish simulation
+    #50;
+    $stop;
+  end
+
+endmodule
