@@ -1,0 +1,1172 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do DataPath_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath.v 
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/Bus.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/Bus.v 
+# -- Compiling module Bus
+# 
+# Top level modules:
+# 	Bus
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/MDR_register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/MDR_register.v 
+# -- Compiling module MDR_register
+# 
+# Top level modules:
+# 	MDR_register
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_32to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_32to1.v 
+# -- Compiling module Mux32to1
+# 
+# Top level modules:
+# 	Mux32to1
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/Encoder32to5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/Encoder32to5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_64.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_64.v 
+# -- Compiling module register_64
+# 
+# Top level modules:
+# 	register_64
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/sra.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/sra.v 
+# -- Compiling module sra
+# 
+# Top level modules:
+# 	sra
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftRight.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftRight.v 
+# -- Compiling module shiftRight
+# 
+# Top level modules:
+# 	shiftRight
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftLeft.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftLeft.v 
+# -- Compiling module shiftLeft
+# 
+# Top level modules:
+# 	shiftLeft
+# End time: 10:17:02 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:02 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v 
+# -- Compiling module rotateRight
+# 
+# Top level modules:
+# 	rotateRight
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateLeft.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateLeft.v 
+# -- Compiling module rotLeft
+# 
+# Top level modules:
+# 	rotLeft
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/orALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/orALU.v 
+# -- Compiling module orALU
+# 
+# Top level modules:
+# 	orALU
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/notALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/notALU.v 
+# -- Compiling module notALU
+# 
+# Top level modules:
+# 	notALU
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/negALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/negALU.v 
+# -- Compiling module negALU
+# 
+# Top level modules:
+# 	negALU
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/andALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/andALU.v 
+# -- Compiling module andALU
+# 
+# Top level modules:
+# 	andALU
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/booth.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/booth.v 
+# -- Compiling module booth
+# 
+# Top level modules:
+# 	booth
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/divisor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/divisor.v 
+# -- Compiling module divisor
+# 
+# Top level modules:
+# 	divisor
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:03 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 10:17:03 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v 
+# -- Compiling module subtractor
+# 
+# Top level modules:
+# 	subtractor
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/PC_register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/PC_register.v 
+# -- Compiling module PC_register
+# 
+# Top level modules:
+# 	PC_register
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/CON_FF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/CON_FF.v 
+# -- Compiling module CON_FF
+# 
+# Top level modules:
+# 	CON_FF
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/SelectAndEncoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/SelectAndEncoder.v 
+# -- Compiling module select_and_encoder
+# 
+# Top level modules:
+# 	select_and_encoder
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder4to16.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder4to16.v 
+# -- Compiling module decoder_4_to_16
+# 
+# Top level modules:
+# 	decoder_4_to_16
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder2to4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder2to4.v 
+# -- Compiling module decoder2_to_4
+# 
+# Top level modules:
+# 	decoder2_to_4
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/MAR_register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/MAR_register.v 
+# -- Compiling module MAR_register
+# 
+# Top level modules:
+# 	MAR_register
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_2to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_2to1.v 
+# -- Compiling module mux_2to1
+# 
+# Top level modules:
+# 	mux_2to1
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/Ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/Ram.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project {C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mfhi_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:05 on Apr 02,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/elec374/CPU_Project" C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mfhi_tb.v 
+# -- Compiling module DataPath_mfhi_tb
+# 
+# Top level modules:
+# 	DataPath_mfhi_tb
+# End time: 10:17:05 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  DataPath_mfhi
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" DataPath_mfhi 
+# Start time: 10:17:05 on Apr 02,2025
+# ** Error: (vsim-3170) Could not find 'DataPath_mfhi'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cyclonev
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cyclonev_hssi
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
+#             C:/intelFPGA_lite/18.1/elec374/CPU_Project/rtl_work
+#             C:/intelFPGA_lite/18.1/elec374/CPU_Project/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./DataPath_run_msim_rtl_verilog.do PAUSED at line 40
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder_test.v 
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU_tb.v 
+# -- Compiling module ALU_tb
+# 
+# Top level modules:
+# 	ALU_tb
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/andALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/andALU.v 
+# -- Compiling module andALU
+# 
+# Top level modules:
+# 	andALU
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/booth.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/booth.v 
+# -- Compiling module booth
+# 
+# Top level modules:
+# 	booth
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Bus.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Bus.v 
+# -- Compiling module Bus
+# 
+# Top level modules:
+# 	Bus
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Bus_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Bus_test.v 
+# -- Compiling module Bus_tb
+# 
+# Top level modules:
+# 	Bus_tb
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/C_sign_extender.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:10 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/C_sign_extender.v 
+# -- Compiling module C_sign_extender
+# 
+# Top level modules:
+# 	C_sign_extender
+# End time: 10:17:10 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/intelFPGA_lite/18.1/elec374/CPU_Project/CON_FF testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/CON_FF testbench.v 
+# -- Compiling module CON_FF_tb
+# 
+# Top level modules:
+# 	CON_FF_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/CON_FF.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/CON_FF.v 
+# -- Compiling module CON_FF
+# 
+# Top level modules:
+# 	CON_FF
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/cpu.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/cpu_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/cpu_bb.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath.v 
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_addi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_addi_tb.v 
+# -- Compiling module DataPath_addi_tb
+# 
+# Top level modules:
+# 	DataPath_addi_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_andi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_andi_tb.v 
+# -- Compiling module DataPath_andi_tb
+# 
+# Top level modules:
+# 	DataPath_andi_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brmi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brmi_tb.v 
+# -- Compiling module DataPath_brmi_tb
+# 
+# Top level modules:
+# 	DataPath_brmi_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brnz_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brnz_tb.v 
+# -- Compiling module DataPath_brnz_tb
+# 
+# Top level modules:
+# 	DataPath_brnz_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brpl_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brpl_tb.v 
+# -- Compiling module DataPath_brpl_tb
+# 
+# Top level modules:
+# 	DataPath_brpl_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brzr_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_brzr_tb.v 
+# -- Compiling module DataPath_brzr_tb
+# 
+# Top level modules:
+# 	DataPath_brzr_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_jal_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_jal_tb.v 
+# -- Compiling module DataPath_jal_tb
+# 
+# Top level modules:
+# 	DataPath_jal_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_jr_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_jr_tb.v 
+# -- Compiling module DataPath_jr_tb
+# 
+# Top level modules:
+# 	DataPath_jr_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld1_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld1_tb.v 
+# -- Compiling module DataPath_ld1_tb
+# 
+# Top level modules:
+# 	DataPath_ld1_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld2_tb.v 
+# -- Compiling module DataPath_ld2_tb
+# 
+# Top level modules:
+# 	DataPath_ld2_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld3_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld3_tb.v 
+# -- Compiling module DataPath_ld3_tb
+# 
+# Top level modules:
+# 	DataPath_ld3_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld4_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:11 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ld4_tb.v 
+# -- Compiling module DataPath_ld4_tb
+# 
+# Top level modules:
+# 	DataPath_ld4_tb
+# End time: 10:17:11 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mfhi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mfhi_tb.v 
+# -- Compiling module DataPath_mfhi_tb
+# 
+# Top level modules:
+# 	DataPath_mfhi_tb
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mflo_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mflo_tb.v 
+# -- Compiling module DataPath_mflo_tb
+# 
+# Top level modules:
+# 	DataPath_mflo_tb
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ori_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_ori_tb.v 
+# -- Compiling module DataPath_ori_tb
+# 
+# Top level modules:
+# 	DataPath_ori_tb
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_st1_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_st1_tb.v 
+# -- Compiling module DataPath_st1_tb
+# 
+# Top level modules:
+# 	DataPath_st1_tb
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_st2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_st2_tb.v 
+# -- Compiling module DataPath_st2_tb
+# 
+# Top level modules:
+# 	DataPath_st2_tb
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_test.v 
+# -- Compiling module DataPath_tb
+# 
+# Top level modules:
+# 	DataPath_tb
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder2to4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder2to4.v 
+# -- Compiling module decoder2_to_4
+# 
+# Top level modules:
+# 	decoder2_to_4
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder4to16.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/decoder4to16.v 
+# -- Compiling module decoder_4_to_16
+# 
+# Top level modules:
+# 	decoder_4_to_16
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/divisor.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/divisor.v 
+# -- Compiling module divisor
+# 
+# Top level modules:
+# 	divisor
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/divisor_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/divisor_tb.v 
+# -- Compiling module divisor_tb
+# 
+# Top level modules:
+# 	divisor_tb
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Encoder32to5.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Encoder32to5.v 
+# -- Compiling module encoder_32_to_5
+# 
+# Top level modules:
+# 	encoder_32_to_5
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Encoder32to5_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Encoder32to5_test.v 
+# -- Compiling module Encoder32to5_test
+# 
+# Top level modules:
+# 	Encoder32to5_test
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/IN_register.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/IN_register.v 
+# -- Compiling module IN_register
+# 
+# Top level modules:
+# 	IN_register
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/InPort_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/InPort_tb.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/MAR_register.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/MAR_register.v 
+# -- Compiling module MAR_register
+# 
+# Top level modules:
+# 	MAR_register
+# End time: 10:17:12 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/MDR_register.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:12 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/MDR_register.v 
+# -- Compiling module MDR_register
+# 
+# Top level modules:
+# 	MDR_register
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/MDR_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/MDR_test.v 
+# -- Compiling module MDR_register_tb
+# 
+# Top level modules:
+# 	MDR_register_tb
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/memram.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/memram.v 
+# -- Compiling module memram
+# 
+# Top level modules:
+# 	memram
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/memram_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/memram_bb.v 
+# -- Compiling module memram_bb
+# 
+# Top level modules:
+# 	memram_bb
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/memram_bb_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/memram_bb_bb.v 
+# -- Compiling module memram_bb
+# 
+# Top level modules:
+# 	memram_bb
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_2to1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_2to1.v 
+# -- Compiling module mux_2to1
+# 
+# Top level modules:
+# 	mux_2to1
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_32to1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux_32to1.v 
+# -- Compiling module Mux32to1
+# 
+# Top level modules:
+# 	Mux32to1
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux32to1_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/Mux32to1_test.v 
+# -- Compiling module Mux32to1_test
+# 
+# Top level modules:
+# 	Mux32to1_test
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/negALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/negALU.v 
+# -- Compiling module negALU
+# 
+# Top level modules:
+# 	negALU
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/notALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/notALU.v 
+# -- Compiling module notALU
+# 
+# Top level modules:
+# 	notALU
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/orALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/orALU.v 
+# -- Compiling module orALU
+# 
+# Top level modules:
+# 	orALU
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/PC_register.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/PC_register.v 
+# -- Compiling module PC_register
+# 
+# Top level modules:
+# 	PC_register
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/PC_register_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/PC_register_tb.v 
+# -- Compiling module PC_register_tb
+# 
+# Top level modules:
+# 	PC_register_tb
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ram.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ram.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ram_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/ram_bb.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_64.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:13 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_64.v 
+# -- Compiling module register_64
+# 
+# Top level modules:
+# 	register_64
+# End time: 10:17:13 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_R0.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_R0.v 
+# -- Compiling module register_R0
+# 
+# Top level modules:
+# 	register_R0
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/register_test.v 
+# -- Compiling module register_tb
+# 
+# Top level modules:
+# 	register_tb
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateLeft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateLeft.v 
+# -- Compiling module rotLeft
+# 
+# Top level modules:
+# 	rotLeft
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v 
+# -- Compiling module rotateRight
+# 
+# Top level modules:
+# 	rotateRight
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/SelectAndEncoder.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/SelectAndEncoder.v 
+# -- Compiling module select_and_encoder
+# 
+# Top level modules:
+# 	select_and_encoder
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/selectAndEncoder_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/selectAndEncoder_tb.v 
+# -- Compiling module selectAndEncoder_tb
+# 
+# Top level modules:
+# 	selectAndEncoder_tb
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftLeft.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftLeft.v 
+# -- Compiling module shiftLeft
+# 
+# Top level modules:
+# 	shiftLeft
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftRight.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftRight.v 
+# -- Compiling module shiftRight
+# 
+# Top level modules:
+# 	shiftRight
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/sra.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/sra.v 
+# -- Compiling module sra
+# 
+# Top level modules:
+# 	sra
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v 
+# -- Compiling module subtractor
+# 
+# Top level modules:
+# 	subtractor
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:14 on Apr 02,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor_test.v 
+# -- Compiling module subtractor_tb
+# 
+# Top level modules:
+# 	subtractor_tb
+# End time: 10:17:14 on Apr 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.DataPath_mfhi_tb
+# vsim work.DataPath_mfhi_tb 
+# Start time: 10:17:05 on Apr 02,2025
+# Loading work.DataPath_mfhi_tb
+# Loading work.DataPath
+# Loading work.select_and_encoder
+# Loading work.decoder_4_to_16
+# Loading work.register
+# Loading work.MAR_register
+# Loading work.register_64
+# Loading work.PC_register
+# Loading work.MDR_register
+# Loading work.mux_2to1
+# Loading work.ALU
+# Loading work.andALU
+# Loading work.orALU
+# Loading work.notALU
+# Loading work.adder
+# Loading work.subtractor
+# Loading work.booth
+# Loading work.shiftLeft
+# Loading work.shiftRight
+# Loading work.sra
+# Loading work.rotLeft
+# Loading work.rotateRight
+# Loading work.negALU
+# Loading work.divisor
+# Loading work.encoder_32_to_5
+# Loading work.Bus
+# Loading work.Mux32to1
+# Loading work.RAM
+# Loading work.CON_FF
+# Loading work.decoder2_to_4
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/orALU.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/or_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/orALU.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(23): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/notALU.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/not_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/notALU.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(25): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sub_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v(12): [PCDPC] - Port size (32) does not match connection size (64) for port 'A'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sub_op/add1 File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v(12): [PCDPC] - Port size (32) does not match connection size (64) for port 'B'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sub_op/add1 File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v(12): [PCDPC] - Port size (32) does not match connection size (64) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sub_op/add1 File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v(15): [PCDPC] - Port size (32) does not match connection size (64) for port 'A'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sub_op/add2 File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v(15): [PCDPC] - Port size (32) does not match connection size (64) for port 'B'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sub_op/add2 File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/subtractor.v(15): [PCDPC] - Port size (32) does not match connection size (64) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sub_op/add2 File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/adder.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(27): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftLeft.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/shl_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftLeft.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(28): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftRight.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/shr_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/shiftRight.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(29): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/sra.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/sra_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/sra.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(30): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateLeft.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/rol_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateLeft.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(31): [PCDPC] - Port size (5) does not match connection size (6) for port 'rotate'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/ror_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(31): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/ror_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/rotateRight.v
+# ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/elec374/CPU_Project/ALU.v(32): [PCDPC] - Port size (64) does not match connection size (32) for port 'Result'. The port definition is at: C:/intelFPGA_lite/18.1/elec374/CPU_Project/negALU.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPath_mfhi_tb/UUT/alu/neg_op File: C:/intelFPGA_lite/18.1/elec374/CPU_Project/negALU.v
+add wave -position insertpoint  \
+sim:/DataPath_mfhi_tb/clk \
+sim:/DataPath_mfhi_tb/clear \
+sim:/DataPath_mfhi_tb/read \
+sim:/DataPath_mfhi_tb/opcode \
+sim:/DataPath_mfhi_tb/fromInPort \
+sim:/DataPath_mfhi_tb/HIin \
+sim:/DataPath_mfhi_tb/LOin \
+sim:/DataPath_mfhi_tb/MARin \
+sim:/DataPath_mfhi_tb/MDRin \
+sim:/DataPath_mfhi_tb/Yin \
+sim:/DataPath_mfhi_tb/Zin \
+sim:/DataPath_mfhi_tb/PCin \
+sim:/DataPath_mfhi_tb/IRin \
+sim:/DataPath_mfhi_tb/HIout \
+sim:/DataPath_mfhi_tb/LOout \
+sim:/DataPath_mfhi_tb/MARout \
+sim:/DataPath_mfhi_tb/MDRout \
+sim:/DataPath_mfhi_tb/zhighout \
+sim:/DataPath_mfhi_tb/zlowout \
+sim:/DataPath_mfhi_tb/PCout \
+sim:/DataPath_mfhi_tb/Cout \
+sim:/DataPath_mfhi_tb/Inout \
+sim:/DataPath_mfhi_tb/Outout \
+sim:/DataPath_mfhi_tb/IncPC \
+sim:/DataPath_mfhi_tb/wren \
+sim:/DataPath_mfhi_tb/muxSignal \
+sim:/DataPath_mfhi_tb/Gra \
+sim:/DataPath_mfhi_tb/Grb \
+sim:/DataPath_mfhi_tb/Grc \
+sim:/DataPath_mfhi_tb/Rin \
+sim:/DataPath_mfhi_tb/Rout \
+sim:/DataPath_mfhi_tb/BAout \
+sim:/DataPath_mfhi_tb/con_in \
+sim:/DataPath_mfhi_tb/inport_in \
+sim:/DataPath_mfhi_tb/outport_in \
+sim:/DataPath_mfhi_tb/BusLine \
+sim:/DataPath_mfhi_tb/R0_data \
+sim:/DataPath_mfhi_tb/R1_data \
+sim:/DataPath_mfhi_tb/R2_data \
+sim:/DataPath_mfhi_tb/R3_data \
+sim:/DataPath_mfhi_tb/R4_data \
+sim:/DataPath_mfhi_tb/R5_data \
+sim:/DataPath_mfhi_tb/R6_data \
+sim:/DataPath_mfhi_tb/R7_data \
+sim:/DataPath_mfhi_tb/R8_data \
+sim:/DataPath_mfhi_tb/R9_data \
+sim:/DataPath_mfhi_tb/R10_data \
+sim:/DataPath_mfhi_tb/R11_data \
+sim:/DataPath_mfhi_tb/R12_data \
+sim:/DataPath_mfhi_tb/R13_data \
+sim:/DataPath_mfhi_tb/R14_data \
+sim:/DataPath_mfhi_tb/R15_data \
+sim:/DataPath_mfhi_tb/HI_data \
+sim:/DataPath_mfhi_tb/LO_data \
+sim:/DataPath_mfhi_tb/MDR_data \
+sim:/DataPath_mfhi_tb/z_low_data_out \
+sim:/DataPath_mfhi_tb/z_high_data_out \
+sim:/DataPath_mfhi_tb/Y_data \
+sim:/DataPath_mfhi_tb/PC_data \
+sim:/DataPath_mfhi_tb/IR_data \
+sim:/DataPath_mfhi_tb/Ram_data \
+sim:/DataPath_mfhi_tb/C_data \
+sim:/DataPath_mfhi_tb/InPort_data \
+sim:/DataPath_mfhi_tb/OutUnit \
+sim:/DataPath_mfhi_tb/YLine \
+sim:/DataPath_mfhi_tb/encode \
+sim:/DataPath_mfhi_tb/select_signals \
+sim:/DataPath_mfhi_tb/ZLine \
+sim:/DataPath_mfhi_tb/Result_in \
+sim:/DataPath_mfhi_tb/Result_out \
+sim:/DataPath_mfhi_tb/MAR_address \
+sim:/DataPath_mfhi_tb/con_out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mistr  Hostname: LAPTOP-D6TF3BP4  ProcessID: 18488
+#           Attempting to use alternate WLF file "./wlftr346g5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr346g5
+run -all
+# ** Note: $stop    : C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mfhi_tb.v(93)
+#    Time: 240 ns  Iteration: 0  Instance: /DataPath_mfhi_tb
+# Break in Module DataPath_mfhi_tb at C:/intelFPGA_lite/18.1/elec374/CPU_Project/DataPath_mfhi_tb.v line 93
+# End time: 10:17:49 on Apr 02,2025, Elapsed time: 0:00:44
+# Errors: 1, Warnings: 18
