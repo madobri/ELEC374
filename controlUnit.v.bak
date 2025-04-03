@@ -1,0 +1,11 @@
+module controlUnit(
+	input clock, reset, stop,
+	input [4:0] IR,
+	
+	output reg HIin, LOin, MARin, MDRin, Yin, Zin, PCin, IRin,
+   output reg HIout, LOout, MARout, MDRout, PCout, Cout, Inout, Outout,
+   output reg IncPC, wren, muxSignal, zhighout, zlowout,
+   output reg Gra, Grb, Grc, Rin, Rout, BAout, inport_in, outport_in,
+   output reg con_in,
+)
+
