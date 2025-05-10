@@ -1,0 +1,48 @@
+`timescale 1ns / 1ps
+
+module Mux32to1_test;
+
+// Inputs
+reg [31:0] I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, I16, I17, I18, I19, I20, I21, I22, I23, I24, I25, I26, I27, I28, I29, I30, I31;
+reg [4:0] signal;
+
+// Outputs
+wire [31:0] BusMuxOut;
+
+// Instantiate the Mux32to1 module
+Mux32to1 uut (
+    .I0(I0), .I1(I1), .I2(I2), .I3(I3), .I4(I4), .I5(I5), .I6(I6), .I7(I7),
+    .I8(I8), .I9(I9), .I10(I10), .I11(I11), .I12(I12), .I13(I13), .I14(I14), .I15(I15),
+    .I16(I16), .I17(I17), .I18(I18), .I19(I19), .I20(I20), .I21(I21), .I22(I22), .I23(I23),
+    .I24(I24), .I25(I25), .I26(I26), .I27(I27), .I28(I28), .I29(I29), .I30(I30), .I31(I31),
+    .signal(signal),
+    .BusMuxOut(BusMuxOut)
+);
+
+// Test stimulus
+initial begin
+    // Initialize Inputs
+    I0 = 32'h00000001; I1 = 32'h00000002; I2 = 32'h00000003; I3 = 32'h00000004;
+    I4 = 32'h00000005; I5 = 32'h00000006; I6 = 32'h00000007; I7 = 32'h00000008;
+    I8 = 32'h00000009; I9 = 32'h0000000A; I10 = 32'h0000000B; I11 = 32'h0000000C;
+    I12 = 32'h0000000D; I13 = 32'h0000000E; I14 = 32'h0000000F; I15 = 32'h00000010;
+    I16 = 32'h00000011; I17 = 32'h00000012; I18 = 32'h00000013; I19 = 32'h00000014;
+    I20 = 32'h00000015; I21 = 32'h00000016; I22 = 32'h00000017; I23 = 32'h00000018;
+    I24 = 32'h00000019; I25 = 32'h0000001A; I26 = 32'h0000001B; I27 = 32'h0000001C;
+    I28 = 32'h0000001D; I29 = 32'h0000001E; I30 = 32'h0000001F; I31 = 32'h00000020;
+    signal = 5'b00000; // Default signal
+
+    // Apply test cases
+    #10 signal = 5'b00000; // Test for I0
+    #10 signal = 5'b00001; // Test for I1
+    #10 signal = 5'b00010; // Test for I2
+    #10 signal = 5'b00100; // Test for I4
+    #10 signal = 5'b01000; // Test for I8
+    #10 signal = 5'b11111; // Test for I31
+    #10 signal = 5'b00000; // Test for I0 again
+
+    // End of simulation
+    #10 $stop;
+end
+
+endmodule

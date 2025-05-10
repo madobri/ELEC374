@@ -1,0 +1,46 @@
+module CON_FF_tb;
+
+    // Testbench signals
+    reg [31:0] bus;        // 32-bit bus input
+    reg [1:0] ir;          // 2-bit instruction input
+    reg con_in;            // Control input (manual signal)
+    wire con_out;          // Control output
+
+    // Instantiate the CON_FF module
+    CON_FF uut (
+        .bus(bus),
+        .ir(ir),
+        .con_in(con_in),
+        .con_out(con_out)
+    );
+
+    initial begin
+        // Initialize inputs
+        bus = 32'b0;
+        ir = 2'b00;
+        con_in = 0; // Initial state for con_in (low)
+
+        // Test Case 1 (Should work because con_in is high)
+        #5 con_in = 1; bus = 32'hA5A5A5A5; ir = 2'b00; // Test case with active con_in
+        #5 con_in = 0; // Toggle con_in off
+
+        // Test Case 2 (Should not work because con_in is low)
+        #5 con_in = 0; bus = 32'h5A5A5A5A; ir = 2'b01; // Test case with con_in off
+
+        // Test Case 3 (Should work because con_in is high)
+        #5 con_in = 1; bus = 32'hFFFF0000; ir = 2'b10; // Test case with active con_in
+        #5 con_in = 0; // Toggle con_in off
+
+        // Test Case 4 (Should not work because con_in is low)
+        #5 con_in = 0; bus = 32'h0000FFFF; ir = 2'b11; // Test case with con_in off
+
+        // Apply more test cases to further verify
+        #5 con_in = 1; bus = 32'h11111111; ir = 2'b00; // Test case with active con_in
+        #5 con_in = 0; // Toggle con_in off
+        #5 con_in = 0; bus = 32'h22222222; ir = 2'b01; // Test case with con_in off
+
+        // End simulation after enough time
+        #10 $stop; // Stop the simulation
+    end
+
+endmodule
